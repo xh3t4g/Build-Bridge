@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    background-color: #2A3245;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 16px;
+    gap: 16px;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 4/4;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}

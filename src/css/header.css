@@ -1,0 +1,30 @@
+header * {
+    margin: 0;
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    backdrop-filter: blur(4px);
+    background-color: #222933ad;
+    height: 64px;
+    border-radius: 0 0 10px 10px;
+    user-select: none;
+    box-shadow: 0 0 10px black;
+}
+
+header {
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    color: #E0E6F0;
+    font-size: 18px;
+}
