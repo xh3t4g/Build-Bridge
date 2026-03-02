@@ -7,3 +7,17 @@ body {
     flex-direction: column;
     min-height: 100vh;    
 }
+
+@media (max-width: 768px) {
+    #card-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    #card-list {
+         grid-template-columns: 1fr;
+         gap: 8px;
+    }
+}
